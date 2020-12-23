@@ -62,9 +62,12 @@ int main(){
 
 	Rectangle r(10,5);
 
-	cout<<"Area: "<<r.area();
+	cout<<"Area: "<<r.area()<<endl;
 	cout<<"Perimeter: "<<r.perimeter()<<endl;
 	
 	r.setLength(20);
-	cout<<"Set length to 20: "<<r.getLength();
+	cout<<"Set length to 20: "<<r.getLength()<<endl;
+
+	Rectangle r1;
+	cout<<"Reset: length="<<r1.getLength()<<" breadth="<<r1.getBreadth()<<endl; 
 }
